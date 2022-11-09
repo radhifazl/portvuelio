@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;300;400;500;600;700&display=swap');
+
+
+/* === VARIABLES === */
+:root {
+    --bg-color: #1A191D;
+    --messagebg-color: #232127;
+    --message-sidebar-color: #1a181d;
+    --lighter-bg-color: #323138;
+    --footer-bg-color: #141416;
+    --primary-color: #D9D9D9;
+    --disabled: #888;
+    --darker-primary-color: #cac9c9;
+    --font-color: #FAFAFA;
+    --white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Prompt', Avenir, Helvetica, Arial, sans-serif;
+    color: var(--font-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+::-webkit-scrollbar {
+    background-color: var(--lighter-bg-color);
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+}
+
+/* === USABLE CLASS === */
+.content-container {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: var(--bg-color);
+    padding: 2rem;
+    padding-top: 4rem;
+}
